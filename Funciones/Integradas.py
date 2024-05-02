@@ -54,3 +54,18 @@ print(resultado)
 
 suma = sum(numeros)
 print(suma)
+
+
+################### FILTER #############
+# Evalua una funcion con los parametros de una lista y devuelve solo aquellos valores de la lista donde el resultado es True
+numeros = [1,5,7,2,65,64,78]
+
+def es_par(num):
+    if num%2 == 0:
+        return True
+    else:
+        False
+
+numeros_pares= list(filter(es_par, numeros))
+
+print(numeros_pares)
