@@ -1,0 +1,20 @@
+Los datos son:
+
+Nombre: James
+Apellido: Contreras
+------------------------
+Nombre: Pedro
+Apellido: Navaja
+------------------------
+Nombre: Juanito
+Apellido: Alimaña
+------------------------
+Nombre: Michael
+Apellido: Jackson
+------------------------
+Nombre: Jorge
+Apellido: Luna
+------------------------
+Nombre: Ricardo
+Apellido: Mendoza
+------------------------
