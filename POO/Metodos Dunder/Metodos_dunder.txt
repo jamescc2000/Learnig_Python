@@ -1,0 +1,32 @@
+Aritmeticos:
+
+__add__(self, other): Sobrecargar del operador de suma (+).
+__sub__(self, other): Sobrecargar del operador de resta (-).
+__mul__(self, other): Sobrecargar del operador de multiplicacion (*).
+__div__(self, other): Sobrecargar del operador de division (/).
+__mod__(self, other): Sobrecargar del operador de modulo (%).
+__pow__(self, other): Sobrecargar del operador de exponenciacion (**).
+
+Comparacion:
+__eq__(self, other): Sobrecargar del operador de igualdad (==).
+__ne__(self, other): Sobrecargar del operador de desigualdad (!=).
+__lt__(self, other): Sobrecargar del operador menor que (<).
+__gt__(self, other): Sobrecargar del operador mayor que (>).
+__le__(self, other): Sobrecargar del operador menor o igual que (<=).
+__ge__(self, other): Sobrecargar del operador mayor o igual que (>=).
+
+Asignacion:
+__iadd__(self, other): Sobrecargar del operador de suma en asignacion (+=).
+__isub__(self, other): Sobrecargar del operador de resta en asignacion (-=).
+__imul__(self, other): Sobrecargar del operador de multiplicacion en asignacion (*=).
+__idiv__(self, other): Sobrecargar del operador de division en asignacion (/=).
+__imod__(self, other): Sobrecargar del operador de modulo en asignacion (%=).
+__ipow__(self, other): Sobrecargar del operador de exponenciacion en asignacion (**=).
+
+Otros:
+__str__(self): Sobrecarga del operador str(). Devuelve una representacion legible como cadena del objeto
+__len__(self): Sobrecarga del operador len(). Devuelve la longitud del objeto.
+__getitem__(self, index): Sobrecarga del operador de indexacion ([]). Permite acceder a elementos del objeto por indice.
+
+
+
