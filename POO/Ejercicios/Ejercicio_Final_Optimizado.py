@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 apiKey = os.getenv("OPENAI_API_KEY")
-
 client = openai.OpenAI(api_key=apiKey)
 
 system_rol = '''Haz de cuenta que eres un analizador de sentimientos.
@@ -35,7 +34,7 @@ class AnalizadorDeSentimientos:
                return sentimiento
         
         return Sentimiento('Muy negativo', '31')
-       
+  
        
 rangos = [
     ((-0.6, -0.3), Sentimiento('Negativo', '31')),
