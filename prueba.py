@@ -1,21 +1,12 @@
-import re
+import math as m
 
-# Read the number of test cases
-T = int(input().strip())
 
-# List to store results
-results = []
+i = 4
+res = 10**i
 
-# Process each test case
-for _ in range(T):
-    S = input().strip()
-    try:
-        # Try to compile the regex
-        re.compile(S)
-        results.append("True")
-    except re.error:
-        results.append("False")
+num = 11
 
-# Print the results for each test case
-for result in results:
-    print(result)
+n = m.log(((num*81)**(1/2))+1,10)
+
+reaul = isinstance(n, int)
+print(n )
